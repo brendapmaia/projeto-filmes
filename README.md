@@ -1,70 +1,64 @@
-# Getting Started with Create React App
+# 🎬 PrimeFlix — Meu Projeto de Catálogo de Filmes
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Esse é um projeto que desenvolvi para praticar React e também para aprender a consumir APIs externas. A ideia foi criar um mini catálogo de filmes usando a API do **The Movie Database (TMDB)**, onde o usuário pode ver detalhes, assistir ao trailer e salvar filmes favoritos.
 
-## Available Scripts
+🌐 **Projeto online:**  
+https://projeto-filmes-brenda.netlify.app/
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## 🚀 Tecnologias utilizadas
+- React JS  
+- React Router  
+- Axios  
+- TMDB API  
+- LocalStorage  
+- Netlify (deploy)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 📌 Funcionalidades
+- Listagem de filmes populares direto da API  
+- Página com detalhes do filme (sinopse, nota, imagem)  
+- Botão para ver o trailer no YouTube  
+- Sistema de favoritos usando LocalStorage  
+- Página exclusiva para filmes salvos  
+- Página de erro para rotas inexistentes
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🖥 Estrutura das páginas
+- **Home:** lista inicial de filmes  
+- **Filme:** detalhes do filme selecionado  
+- **Favoritos:** filmes salvos pelo usuário  
+- **Erro:** rota não encontrada  
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 🗂 Organização do projeto
+src/
+├── components/
+├── pages/
+├── routes/
+├── services/
+├── App.js
+└── index.js
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+yaml
+Copiar código
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+## ▶ Como executar o projeto localmente
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+```bash
+git clone https://github.com/SEU-USUARIO/NOME-DO-REPOSITORIO.git
+cd nome-do-repositorio
+npm install
+npm start
+🌐 Deploy
+Projeto hospedado no Netlify:
+https://projeto-filmes-brenda.netlify.app/
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+✨ Sobre mim
+Esse projeto faz parte da minha evolução no desenvolvimento. Usei ele para praticar React, consumo de APIs e deploy. Estou sempre buscando melhorar e construir projetos cada vez melhores. 😊
